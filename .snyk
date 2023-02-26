@@ -18,6 +18,20 @@ patch:
         patched: '2023-02-26T16:17:23.552Z'
     - bare-auth-linkedin > linkedin-oauth-agent > superagent > extend:
         patched: '2023-02-26T16:17:23.552Z'
+    - bare-auth-facebook > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-google > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-linkedin > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-twitter > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-facebook > facebook-oauth-agent > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-google > google-oauth-agent > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-linkedin > linkedin-oauth-agent > superagent > extend:
+        patched: '2023-02-26T16:17:59.111Z'
   'npm:mime:20170907':
     - bare-auth-facebook > superagent > mime:
         patched: '2023-02-26T16:17:23.552Z'
@@ -33,9 +47,28 @@ patch:
         patched: '2023-02-26T16:17:23.552Z'
     - bare-auth-linkedin > linkedin-oauth-agent > superagent > mime:
         patched: '2023-02-26T16:17:23.552Z'
+    - bare-auth-facebook > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-google > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-linkedin > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-twitter > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-facebook > facebook-oauth-agent > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-google > google-oauth-agent > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
+    - bare-auth-linkedin > linkedin-oauth-agent > superagent > mime:
+        patched: '2023-02-26T16:17:59.111Z'
   'npm:uglify-js:20151024':
     - jade > transformers > uglify-js:
         patched: '2023-02-26T16:17:23.552Z'
+ snyk-fix-80fd766ad528afeafbdb6b575927a649
+    - jade > transformers > uglify-js:
+        patched: '2023-02-26T16:17:59.111Z'
+
   'npm:uglify-js:20150824':
     - jade > transformers > uglify-js:
         patched: '2023-02-26T16:18:38.486Z'
+ master
